@@ -13,9 +13,10 @@ body { margin: 0;}
 
 #cabecera { 
     width: 1200px;
-    height: 234px;
+    height: 223px;
     background-color: #669aed;
     margin: auto;
+    margin-bottom: 3px;
 
 
 }
@@ -40,35 +41,41 @@ body { margin: 0;}
 
 }
 
+#section1, #section2, #section3 {
 
-
-#contenido { 
-    width: 1200px; 
+    display: inline-block;
+    position: relative;
+    left: 340px;
+    width: 397px; 
     height: 600px;
     background-color: #4e70a6;
-    margin: auto;
 }
 
+
+
+
+
 .box_cont {
-    width: 380px;
+    width: 377px;
     height: 400px;
     background-color: #314d7a;
     float: left;
-margin: 10px;
+    margin: 10px;
 
 
 }
 
-#box_bottom {
-    width: 1180px;
+.box_cont2 {
+    width: 377px;
     height: 150px;
     background-color: #314d7a;
-    float: inline-end;
+    float: left;
     margin: 10px;
-    
-
 
 }
+
+
+
 
 
 #pie {
@@ -76,6 +83,7 @@ margin: 10px;
     height: 105px;
     background-color: #669aed;
     margin: auto;
+    margin-top: 0px;
 }
 
 .Lacline {
@@ -92,10 +100,9 @@ margin: 10px;
     width: 65px;
     height: 65px;
     background-color: #314d7a;
-    position: relative; left: 20px; top: 20%;
+    position: relative; left: 20px; top: 20px;
 
 }
-
 
 
 
